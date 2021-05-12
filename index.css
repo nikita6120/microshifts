@@ -1,8 +1,12 @@
 #microShiftsLanding section.hero {
-  background-image: url("./assets/images/forest.jpg");
+  /* background-image: url("./assets/images/forest.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 #microShiftsLanding .hero-foot {
-  background:#1D1F37 ;
+  background:#D3C5D1 ;
+}
+
+#heroVideo {
+  object-fit: cover;
 }
