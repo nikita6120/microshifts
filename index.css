@@ -1,0 +1,36 @@
+#microShiftsLanding section.hero {
+  /* background-image: url("./assets/images/forest.jpg");
+  background-position: center;
+  background-size: cover; */
+}
+#microShiftsLanding .hero-foot {
+  background:#D3C5D1 ;
+}
+
+#heroVideo {
+  object-fit: cover;
+}
+
+.emailBTN {
+  border-radius: 6px;
+  margin-left: -12px;
+}
+
+.emailBTNCLMN {
+  flex-grow: 0;
+  flex-basis: 0;
+}
+
+.emailInput {
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .emailBTNCLMN {
+    padding-bottom: 0px;
+  }
+
+  .hero-video {
+    display: block;
+  }
+}
