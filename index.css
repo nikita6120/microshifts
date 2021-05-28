@@ -3,8 +3,9 @@
   background-position: center;
   background-size: cover; */
 }
+
 #microShiftsLanding .hero-foot {
-  background:  ;
+  background: #D3C5D1;
 }
 
 p.title {
@@ -26,7 +27,7 @@ p.title {
   flex-basis: 0;
 }
 
-p.subtitle:not(:last-child){
+p.subtitle:not(:last-child) {
   font-size: 24px;
 }
 
@@ -42,12 +43,10 @@ p.subtitle:not(:last-child){
   .emailBTNCLMN {
     padding-bottom: 0px;
   }
-
   .hero-video {
     display: block;
   }
-
-  p.subtitle:not(:last-child){
+  p.subtitle:not(:last-child) {
     margin-bottom: 0px;
   }
 }
