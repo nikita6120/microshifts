@@ -4,7 +4,11 @@
   background-size: cover; */
 }
 #microShiftsLanding .hero-foot {
-  background:#D3C5D1 ;
+  background:  ;
+}
+
+p.title {
+  font-size: 36px;
 }
 
 #heroVideo {
@@ -14,6 +18,7 @@
 .emailBTN {
   border-radius: 6px;
   margin-left: -12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .emailBTNCLMN {
@@ -21,8 +26,16 @@
   flex-basis: 0;
 }
 
+p.subtitle:not(:last-child){
+  font-size: 24px;
+}
+
 .emailInput {
   border-radius: 6px;
+}
+
+#microShiftsLanding .body {
+  font-family: 'Arial';
 }
 
 @media only screen and (max-width: 767px) {
@@ -32,5 +45,9 @@
 
   .hero-video {
     display: block;
+  }
+
+  p.subtitle:not(:last-child){
+    margin-bottom: 0px;
   }
 }
